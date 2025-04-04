@@ -1,0 +1,40 @@
+.nav{
+    padding: 38px 60px;
+    display: flex;
+    justify-content: space-between;
+    color: white    ;
+    align-items: center;
+}
+.nav-links{
+    font-size: small;
+}
+a {
+    margin:35px;
+    text-decoration: none; /* Removes underline */
+    color:white; /* Sets text color towhite */
+    font-weight: normal; /* Ensures normal font weight */
+    font-style: normal; /* Ensures normal font style */
+}
+
+a:visited {
+    color:rgba(255, 255, 255, 0.564); /* Ensures visited links remainwhite */
+}
+
+a:hover, a:focus, a:active {
+    text-decoration: none; /* Removes underline on hover, focus, and active states */
+    color:rgba(255, 255, 255, 0.543); /* Keeps text colorwhite on hover, focus, and active states */
+}
+.nav-contact{
+    padding: 10px 30px;
+    border-radius: 50px;
+    background-color: white;
+    color: black;
+    font-size: smaller;
+}
+.nav-contact:visited{
+    color: black;
+}
+.nav-logo{
+    cursor: pointer;
+    font-size: xx-large;
+}
