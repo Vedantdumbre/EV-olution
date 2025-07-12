@@ -30,9 +30,11 @@ a:hover, a:focus, a:active {
     background-color: white;
     color: black;
     font-size: smaller;
+    font-weight:bolder;
 }
-.nav-contact:visited{
-    color: black;
+.nav-contact:hover{
+    color: orangered;
+    transition: 0.3s;
 }
 .nav-logo{
     cursor: pointer;
